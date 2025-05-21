@@ -20,10 +20,24 @@ class $modify(MyMenuLayer, MenuLayer) {
 				menu_selector(MyMenuLayer::onMyButton)
 			);
 
+			if (!Mod::get()->getSettingValue<bool>("Second-Button") = true) {
+				auto button2 = CCMenuItemSpriteExtra::create(
+					CCSprite::createWithSpriteFrameName("chest_02_03_001.png"),
+					this,
+					menu_selector(MyMenuLayer::onMyButton)
+				);
+			}
+
 			auto menu = this->getChildByID("bottom-menu");
 			menu->addChild(myButton);
+			if (!Mod::get()->getSettingValue<bool>("Second-Button") = true) {
+				menu->addChild(mybutton2);
+			}
 
 			myButton->setID("my-button"_spr);
+			if (!Mod::get()->getSettingValue<bool>("Second-Button") = true) {
+				myButton2->setID("my-button"_spr);
+			}
 
 			menu->updateLayout();
 

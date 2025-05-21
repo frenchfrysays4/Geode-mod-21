@@ -1,0 +1,14 @@
+{
+	"geode": "4.3.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "frenchfrysays.geode_mod_2",
+	"name": "Geode mod 2",
+	"version": "v1.0.0",
+	"developer": "frenchfrysays",
+	"description": "Just a Geode mod :)"
+}

@@ -10,5 +10,24 @@
 	"name": "Geode mod 2",
 	"version": "v1.0.0",
 	"developer": "frenchfrysays",
-	"description": "Just a Geode mod :)"
+	"description": "Just a Geode mod :)",
+	"tags": [
+		"content",
+		"interface"
+	],
+	"dependencies": {
+		"geode.node-ids": {
+			"version": ">1.20.1",
+			"importance": "required"
+		}
+	},
+	"settings": {
+		"toggle": {
+			"type": "bool",
+			"default": false,
+			"name": "toggle mod",
+			"description": "Toggles the mod with a restart.",
+			"requires-restart": true
+		}
+	}
 }

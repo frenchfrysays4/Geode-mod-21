@@ -30,7 +30,11 @@ class $modify(MyMenuLayer, MenuLayer) {
 			return true;
 		}
 		void onMyButton(CCObject*) {
-			FLAlertLayer::create("Geode", "Hello from my custom mod!", "OK")->show();
+			FLAlertLayer::create(
+				"Geode", // Title of popup
+				"Hello from my custom mod!", // Body of popup
+				"OK" // button of popup
+			)->show(); // show the popup
 		}
 	}
 };

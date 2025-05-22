@@ -19,21 +19,5 @@
 			"version": "1.20.1",
 			"importance": "required"
 		}
-	},
-	"settings": {
-		"toggle": {
-			"type": "bool",
-			"default": true,
-			"name": "Toggle Mod",
-			"description": "Toggles the mod with a restart.",
-			"requires-restart": true
-		},
-		"secondButton": {
-			"type": "bool",
-			"default": false,
-			"name": "Second Button",
-			"description": "Toggles a second button.",
-			"requires-restart": true
-		}
 	}
 }
